@@ -2,7 +2,7 @@ import math
 # Создать переменную int_item со значением 10
 int_item = 10
 
-# Создать переменную comp_item co pyfxtbtv 18
+# Создать переменную comp_item co значением 18
 comp_item = 18
 
 # Создать переменную mult_int в которой умножите int_item на 2
@@ -77,3 +77,60 @@ else:
 
 #Сделать if в котором будет условие: если item_2, то вывести в консоль
 # (“Переменная item_2 = ”, item_2), иначе, вывести в консоль (“Переменная item_2 = ”, item_3)
+if item_2:
+    print("Переменная item_2 =", item_2)
+else:
+    print("Переменная item_2 =", iten_3)
+#Сделать if в котором будет условие: если item_3, то вывести в консоль
+# (“Переменная item_3 = ”, item_2), иначе, вывести в консоль
+# (“Переменная item_3 = ”, item_3)
+if item_3:
+    print("Переменная item_3 =", item_2)
+else:
+    print("Переменная item_3 =", item_3)
+
+#Сделать if в котором будет условие: если item_5, то вывести в консоль
+# (“Переменная item_5 = ”, item_5), иначе, вывести в консоль
+# (“Переменная item_5 = ”, item_4)
+if item_5:
+    print("Переменная item_5 = ", item_5)
+else:
+    print("Переменная item_5 = ", item_4)
+
+#Сделать if в котором будет условие: если item_4, то вывести в консоль
+#(“Переменная item_4 = ”, item_5), иначе, вывести в консоль
+# (“Переменная item_4 = ”, item_4)
+if item_4:
+    print("Переменная item_4 = ", item_5)
+else:
+    print("Переменная item_4 = ", item_4)
+
+#Создать переменную currency_convertor со значением item_2
+#Сделать if в котором будет условие: если currency_convertor,
+# то выполнять следующие шаги задания, иначе, вывести в консоль
+# (“Переменная currency_convertor = ”, item_3)
+currency_convertor = item_2
+if currency_convertor:
+    currency_usd = usd_item
+    target_currency = eur_item
+    target_currency_amount = 50
+    currency_result = 0
+    if target_currency_amount == 'eur':
+        currency_result = target_currency_amount * usd_eur_rate
+        print(target_currency_amount, eur_item, "=", currency_result, usd_item)
+    elif target_currency_amount == 'uah':
+        currency_result = target_currency_amount * usd_uah_rate
+        print(target_currency_amount, uah_item, "=", currency_result, uah_item)
+    elif target_currency_amount == 'chf':
+        currency_result = target_currency_amount * usd_chf_rate
+        print(target_currency_amount, chf_item, "=", currency_result, chf_item)
+    elif target_currency_amount == 'rub':
+        currency_result = target_currency_amount * usd_rub_rate
+        print(target_currency_amount, rub_item, "=", currency_result, rub_item)
+    elif target_currency_amount == 'byn':
+        currency_result = target_currency_amount * usd_byn_rate
+        print(target_currency_amount, byn_item, "=", currency_result, byn_item)
+    else:
+        print("Unknow currency")
+else:
+    print("Переменная currency_convertor = ", item_3)
