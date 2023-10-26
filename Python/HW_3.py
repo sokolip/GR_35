@@ -1,0 +1,79 @@
+import math
+# Создать переменную int_item со значением 10
+int_item = 10
+
+# Создать переменную comp_item co pyfxtbtv 18
+comp_item = 18
+
+# Создать переменную mult_int в которой умножите int_item на 2
+mult_int = math.pow(int_item, 2)
+
+# Создать переменную item_2 со значением True
+item_2 = True
+
+# Создать переменную item_3 со значением False
+item_3 = False
+
+# Создать переменную item_4 со значением 0
+item_4 = 0
+
+#Создать переменную item_5 со значением 1
+item_5 = 1
+
+#Создать переменную usd_item со значением ‘usd’
+usd_item = 'usd'
+
+#Создать переменную usd_usd_rate со значением 1
+usd_usd_rate = 1
+
+#Создать переменную eur_item со значением ‘eur’
+eur_item = 'eur'
+
+#Создать переменную usd_eur_rate со значением 0.86
+usd_eur_rate = 0.86
+
+#Создать переменную uah_item со значением ‘uah’
+uah_item = 'uah'
+
+#Создать переменную usd_uah_rate со значением 26.23
+usd_uah_rate = 26.23
+
+#Создать переменную chf_item со значением ‘chf’
+#Создать переменную usd_chf_rate со значением 0.91
+chf_item = 'chf'
+usd_chf_rate = 0.91
+
+#Создать переменную rub_item со значением ‘rub’
+#Создать переменную usd_rub_rate со значением 71.88
+rub_item = 'rub'
+usd_rub_rate = 71.88
+
+#Создать переменную byn_item со значением ‘byn’
+#Создать переменную usd_byn_rate со значением 2.46
+byn_item = 'byn'
+usd_byn_rate = 2.46
+
+#Сделать if в котором будет условие: если mult_int больше comp_item,
+# то вывести в консоль (“Переменная mult_int больше”, comp_item)
+if mult_int > comp_item:
+    print("Переменная mult_int больше", comp_item)
+
+#Создать переменную div_int в которй разделить int_item на 2
+#Сделать if в котором будет условие: если div_int меньше comp_item,
+# то вывести в консоль (“Переменная div_int меньше”, comp_item)
+div_int = int_item / 2
+if div_int < comp_item:
+    print("Переменная div_int меньше", comp_item)
+
+#Cоздать переменную item_1 в которй прибавить 10 к переменной int_item
+#Сделать if в котором будет условие: если item_1 меньше comp_item, то
+# вывести в консоль (“Переменная item_1 меньше”, comp_item), иначе,
+# вывести в консоль (“Переменная item_1 больше или равна”, comp_item)
+item_1 = int_item + 10
+if item_1 < comp_item:
+    print("Переменная item_1 меньше", comp_item)
+else:
+    print("Пременная item_1 больше или равна", comp_item)
+
+#Сделать if в котором будет условие: если item_2, то вывести в консоль
+# (“Переменная item_2 = ”, item_2), иначе, вывести в консоль (“Переменная item_2 = ”, item_3)
